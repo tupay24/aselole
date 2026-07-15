@@ -19,7 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const toggle = document.querySelector('#theme-toggle');
   if (toggle) {
-    toggle.addEventListener('click', toggleTheme);
+    toggle.addEventListener('click', () => {
+      toggleTheme();
+      toggle.innerHTML = html.classList.contains('dark') ? '☀️' : '🌙';
+    });
+    toggle.innerHTML = html.classList.contains('dark') ? '☀️' : '🌙';
   }
 });
 
