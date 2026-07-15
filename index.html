@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portofolio profesional Fajar Buana Cahayantha sebagai Strategic & Creative Manager, UI/UX Designer, Web Developer, IT Support, dan Digital Marketing." />
+    <meta name="keywords" content="Fajar Buana Cahayantha, UI UX, Web Developer, Portfolio, Figma, Strategic Creative Manager, IT Support, Digital Marketing, Tailwind CSS" />
+    <meta name="author" content="Fajar Buana Cahayantha" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#09090B" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="canonical" href="https://domainanda.com/" />
+    <link rel="icon" href="assets/images/favicon/favicon.ico" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+            },
+            colors: {
+              primary: '#2563EB',
+              dark: '#09090B',
+              surface: '#18181B',
+              card: '#27272A',
+            },
+            boxShadow: {
+              glow: '0 0 40px rgba(37,99,235,.25)',
+            },
+          },
+        },
+      };
+    </script>
+    <title>Fajar Buana Cahayantha | Strategic & Creative Manager | UI/UX Designer | Web Developer</title>
+  </head>
+  <body id="top" class="bg-white dark:bg-dark text-zinc-900 dark:text-white transition duration-500">
+    <div id="progress"></div>
+
+    <header class="fixed top-0 left-0 w-full z-50">
+      <nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-black/80 backdrop-blur-lg">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+          <a href="#top" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
+            Fajar Buana Cahayantha
+          </a>
+
+          <div class="hidden md:flex gap-8">
+            <a href="#about">Tentang</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#experience">Pengalaman</a>
+            <a href="#kontak">Kontak</a>
+          </div>
+
+          <button id="menu-btn" class="md:hidden text-3xl">☰</button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-6 bg-white dark:bg-black">
+          <a class="block py-3" href="#about">Tentang</a>
+          <a class="block py-3" href="#skills">Keahlian</a>
+          <a class="block py-3" href="#proyek">Proyek</a>
+          <a class="block py-3" href="#experience">Pengalaman</a>
+          <a class="block py-3" href="#kontak">Kontak</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="relative overflow-hidden min-h-screen flex items-center">
+        <div class="absolute inset-0">
+          <div class="absolute -top-44 left-0 w-[500px] h-[500px] bg-blue-600/20 blur-[140px] rounded-full"></div>
+          <div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-cyan-500/20 blur-[140px] rounded-full"></div>
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(37,99,235,.08),transparent_45%)]"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6 py-24">
+          <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <span class="inline-flex items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-primary text-sm font-semibold">
+                👋 Selamat Datang di Portofolio Saya
+              </span>
+
+              <h1 class="mt-8 text-5xl lg:text-7xl font-extrabold leading-tight">
+                Hai, Saya
+                <span class="block text-primary">Fajar Buana Cahayantha</span>
+              </h1>
+
+              <p class="mt-6 text-2xl font-semibold">
+                <span id="typing"></span>
+              </p>
+
+              <p class="mt-8 text-zinc-600 dark:text-zinc-400 leading-8 text-lg max-w-xl">
+                Strategic & Creative Manager dengan ketertarikan pada UI/UX Design, Web Development, IT Support, Digital Marketing, serta strategi bisnis digital. Berorientasi pada solusi, pengalaman pengguna, dan pengembangan produk digital yang efektif.
+              </p>
+
+              <div class="mt-10 flex flex-wrap gap-5">
+                <a href="assets/files/CV.pdf" class="px-8 py-4 rounded-2xl bg-primary hover:scale-105 duration-300 text-white font-semibold shadow-glow">
+                  Download CV
+                </a>
+                <a href="#proyek" class="px-8 py-4 rounded-2xl border border-zinc-300 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-card duration-300">
+                  Lihat Proyek
+                </a>
+              </div>
+
+              <div class="grid grid-cols-3 gap-8 mt-16">
+                <div>
+                  <h2 class="text-4xl font-extrabold">20+</h2>
+                  <p class="mt-2 text-zinc-500">Project</p>
+                </div>
+                <div>
+                  <h2 class="text-4xl font-extrabold">10+</h2>
+                  <p class="mt-2 text-zinc-500">UI Design</p>
+                </div>
+                <div>
+                  <h2 class="text-4xl font-extrabold">5+</h2>
+                  <p class="mt-2 text-zinc-500">Tahun Belajar</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative flex justify-center">
+              <div class="absolute w-[420px] h-[420px] rounded-full bg-blue-600/20 blur-[120px]"></div>
+
+              <div class="relative rounded-[40px] overflow-hidden border border-white/10 dark:border-zinc-700 bg-white/5 backdrop-blur-xl shadow-2xl">
+                <img src="assets/images/profile.webp" alt="Foto Profil Fajar Buana Cahayantha" loading="eager" class="w-[430px] lg:w-[480px] object-cover" />
+              </div>
+
+              <div class="absolute bottom-0 left-0 md:-bottom-6 md:-left-6 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl rounded-3xl p-4 md:p-6 shadow-xl border border-white/20 dark:border-zinc-700 max-w-[85%] md:max-w-none z-10">
+                <h3 class="font-bold text-sm md:text-base">Available For</h3>
+                <p class="mt-2 text-zinc-500 text-sm md:text-base">UI/UX Design</p>
+                <p class="text-zinc-500 text-sm md:text-base">Website Development</p>
+                <p class="text-zinc-500 text-sm md:text-base">IT Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-28">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center">
+            <span class="text-primary font-semibold tracking-widest uppercase">Tentang Saya</span>
+            <h2 class="mt-4 text-4xl lg:text-5xl font-extrabold">Mengenal Lebih Dekat</h2>
+            <p class="mt-6 max-w-3xl mx-auto text-lg text-zinc-600 dark:text-zinc-400 leading-8">
+              Saya merupakan lulusan SMK Negeri 1 Simpang Katis yang memiliki minat besar dalam pengembangan produk digital, UI/UX Design, Web Development, Digital Marketing, serta IT Support. Saya terbiasa menggabungkan pemikiran strategis dengan pendekatan kreatif untuk menghasilkan solusi yang tidak hanya menarik secara visual tetapi juga efektif dalam memenuhi kebutuhan pengguna dan tujuan bisnis.
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-10 mt-20">
+            <div class="rounded-3xl border border-zinc-200 dark:border-zinc-800 p-8 bg-white dark:bg-surface">
+              <h3 class="text-2xl font-bold">Profil Singkat</h3>
+              <div class="mt-8 space-y-5">
+                <div class="flex justify-between">
+                  <span class="text-zinc-500">Nama</span>
+                  <strong>Fajar Buana Cahayantha</strong>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-zinc-500">Profesi</span>
+                  <strong>Full Stack IT Support</strong>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-zinc-500">Pendidikan</span>
+                  <strong>SMK Negeri 1 Simpang Katis - Multimedia</strong>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-zinc-500">Fokus</span>
+                  <strong>UI/UX & Web Development</strong>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-zinc-500">Email</span>
+                  <strong>fajar.bc24@gmail.com</strong>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-zinc-500">WhatsApp</span>
+                  <strong>+62 xxx xxxx xxxx</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-zinc-200 dark:border-zinc-800 p-8 bg-white dark:bg-surface">
+              <h3 class="text-2xl font-bold">Nilai yang Saya Pegang</h3>
+              <div class="mt-8 space-y-6">
+                <div>
+                  <h4 class="font-semibold">Strategic Thinking</h4>
+                  <p class="mt-2 text-zinc-500 leading-7">
+                    Menyusun strategi berdasarkan data, kebutuhan pengguna, serta tujuan bisnis jangka panjang.
+                  </p>
+                </div>
+                <div>
+                  <h4 class="font-semibold">Creative Problem Solving</h4>
+                  <p class="mt-2 text-zinc-500 leading-7">
+                    Mengembangkan solusi yang efektif melalui pendekatan kreatif dan inovatif.
+                  </p>
+                </div>
+                <div>
+                  <h4 class="font-semibold">Continuous Learning</h4>
+                  <p class="mt-2 text-zinc-500 leading-7">
+                    Selalu mempelajari teknologi baru untuk meningkatkan kualitas produk digital yang dikembangkan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-28 bg-zinc-50 dark:bg-[#0F0F11]">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center">
+            <span class="text-primary uppercase tracking-widest font-semibold">Keahlian</span>
+            <h2 class="mt-4 text-4xl lg:text-5xl font-extrabold">Kompetensi Profesional</h2>
+            <p class="mt-6 text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+              Keahlian yang saya kuasai merupakan kombinasi antara teknologi, desain, strategi bisnis, dan pemasaran digital.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
+            <div class="rounded-3xl bg-white dark:bg-surface border border-zinc-200 dark:border-zinc-800 p-8 hover:-translate-y-2 transition">
+              <div class="text-4xl">💻</div>
+              <h3 class="mt-6 text-xl font-bold">Frontend</h3>
+              <ul class="mt-6 space-y-3 text-zinc-500">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+
+            <div class="rounded-3xl bg-white dark:bg-surface border border-zinc-200 dark:border-zinc-800 p-8 hover:-translate-y-2 transition">
+              <div class="text-4xl">⚙️</div>
+              <h3 class="mt-6 text-xl font-bold">Backend</h3>
+              <ul class="mt-6 space-y-3 text-zinc-500">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>REST API</li>
+                <li>Database Design</li>
+              </ul>
+            </div>
+
+            <div class="rounded-3xl bg-white dark:bg-surface border border-zinc-200 dark:border-zinc-800 p-8 hover:-translate-y-2 transition">
+              <div class="text-4xl">🎨</div>
+              <h3 class="mt-6 text-xl font-bold">UI / UX</h3>
+              <ul class="mt-6 space-y-3 text-zinc-500">
+                <li>Figma</li>
+                <li>Wireframe</li>
+                <li>Mockup</li>
+                <li>Prototype</li>
+                <li>Design System</li>
+              </ul>
+            </div>
+
+            <div class="rounded-3xl bg-white dark:bg-surface border border-zinc-200 dark:border-zinc-800 p-8 hover:-translate-y-2 transition">
+              <div class="text-4xl">📈</div>
+              <h3 class="mt-6 text-xl font-bold">Digital</h3>
+              <ul class="mt-6 space-y-3 text-zinc-500">
+                <li>SEO</li>
+                <li>Google Ads</li>
+                <li>Meta Ads</li>
+                <li>TikTok Ads</li>
+                <li>Content Strategy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyek" class="py-20 bg-gray-100 dark:bg-gray-900">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-14">Project Terbaru</h2>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="group bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 transition duration-300">
+              <div class="relative h-52 overflow-hidden">
+                <img src="assets/images/project/beritalain.png" data-project-slide="0" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-100" alt="Website & Company Profile" />
+                <img src="assets/images/project/jurnalmerdeka.png" data-project-slide="1" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Website & Company Profile" />
+                <img src="assets/images/project/itbabel.png" data-project-slide="2" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Website & Company Profile" />
+                <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+                  <span class="project-dot h-2.5 w-2.5 rounded-full bg-white shadow"></span>
+                  <span class="project-dot h-2.5 w-2.5 rounded-full bg-white/40 shadow"></span>
+                  <span class="project-dot h-2.5 w-2.5 rounded-full bg-white/40 shadow"></span>
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-3 text-zinc-900 dark:text-white">Website & Company Profile</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  Website menggunakan PHP,HTML5, CSS3, JavaScript serta modul jQuery, MySQL, dan Bootstrap.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-5">
+                  <span class="px-3 py-1 bg-blue-100 rounded-full text-sm text-zinc-900">HTML</span>
+                  <span class="px-3 py-1 bg-blue-100 rounded-full text-sm text-zinc-900">Tailwind</span>
+                  <span class="px-3 py-1 bg-blue-100 rounded-full text-sm text-zinc-900">Javascript</span>
+                  <span class="px-3 py-1 bg-blue-100 rounded-full text-sm text-zinc-900">PHP</span>
+                </div>
+                <a href="https://www.beritalain.id/" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700">BL</a>
+                <a href="https://jurnalmerdeka.id/" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700">JM</a>
+                <a href="https://itbabel.netlify.app/" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700">ITB</a>
+              </div>
+            </div>
+
+            <div class="group bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 transition duration-300">
+              <img src="assets/images/project/project1.png" class="w-full h-52 object-cover group-hover:scale-110 transition duration-500" alt="Project mobile app" />
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-3 text-zinc-900 dark:text-white">Mobile Application</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  Aplikasi Android berbasis Kotlin dengan konsep Material Design.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-5">
+                  <span class="px-3 py-1 bg-green-100 rounded-full text-sm text-zinc-900">Kotlin</span>
+                  <span class="px-3 py-1 bg-green-100 rounded-full text-sm text-zinc-900">Android Studio</span>
+                </div>
+                <a href="#" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-xl">Detail</a>
+              </div>
+            </div>
+
+            <div class="group bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 transition duration-300">
+              <img src="assets/images/project/Rice-Bowl.png" class="w-full h-52 object-cover group-hover:scale-110 transition duration-500" alt="Project UI/UX" />
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-3 text-zinc-900 dark:text-white">Desain UI/UX</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                  Membuat desain antarmuka pengguna yang menarik dan mudah digunakan.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-5">
+                  <span class="px-3 py-1 bg-purple-100 rounded-full text-sm text-zinc-900">Figma</span>
+                  <span class="px-3 py-1 bg-purple-100 rounded-full text-sm text-zinc-900">UI/UX</span>
+                </div>
+                <a href="https://www.figma.com/design/JjNd4D42TDiPFnCI0THPgv/Rice-Bowl?node-id=0-1&t=HFyZ256Wi3NJn7lx-1" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-xl">Lihat Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="py-28">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center">
+            <span class="text-primary uppercase tracking-[4px] font-semibold">Pengalaman</span>
+            <h2 class="mt-4 text-4xl lg:text-5xl font-extrabold">Perjalanan Profesional</h2>
+            <p class="mt-6 max-w-3xl mx-auto text-zinc-600 dark:text-zinc-400">
+              Setiap pengalaman memberikan pembelajaran baru dalam mengembangkan produk digital, meningkatkan kualitas layanan, serta membangun strategi yang berorientasi pada hasil.
+            </p>
+          </div>
+
+          <div class="relative mt-24">
+            <div class="absolute left-5 top-0 h-full w-[2px] bg-primary/30"></div>
+
+            <div class="relative pl-16 pb-16">
+              <div class="absolute left-0 top-2 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">1</div>
+              <span class="text-primary font-semibold">Digital Marketing Specialist</span>
+              <h3 class="mt-2 text-2xl font-bold">Strategic & Creative Manager</h3>
+              <p class="mt-4 text-zinc-500 leading-8">
+                Bertanggung jawab dalam menyusun strategi branding, mengembangkan identitas visual, mengelola UI/UX, mengoptimalkan website, SEO, serta mengembangkan berbagai media digital.
+              </p>
+            </div>
+
+            <div class="relative pl-16 pb-16">
+              <div class="absolute left-0 top-2 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">2</div>
+              <span class="text-primary font-semibold">UI / UX Designer</span>
+              <h3 class="mt-2 text-2xl font-bold">Product Interface Design</h3>
+              <p class="mt-4 text-zinc-500 leading-8">
+                Mendesain Wireframe, Mockup, UI Element, Prototype menggunakan Figma dengan pendekatan Design Thinking dan User Centered Design.
+              </p>
+            </div>
+
+            <div class="relative pl-16">
+              <div class="absolute left-0 top-2 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">3</div>
+              <span class="text-primary font-semibold">Web Development & IT Support</span>
+              <h3 class="mt-2 text-2xl font-bold">Website & Technical Support</h3>
+              <p class="mt-4 text-zinc-500 leading-8">
+                Mengembangkan website, melakukan maintenance, troubleshooting, optimasi performa, pengelolaan server, database, serta implementasi SEO.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="py-20 bg-white dark:bg-black transition">
+        <div class="max-w-5xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center mb-12">Hubungi Saya</h2>
+
+          <div class="grid md:grid-cols-2 gap-10">
+            <div>
+              <h3 class="text-2xl font-bold mb-5">Mari Berkolaborasi</h3>
+              <p class="text-gray-600 dark:text-gray-300 mb-8">
+                Saya terbuka untuk peluang kerja, project digital, kolaborasi bisnis, dan pengembangan solusi teknologi.
+              </p>
+
+              <div class="space-y-4">
+                <div class="p-4 rounded-xl bg-gray-100 dark:bg-gray-800">📧 <span class="ml-3">fajar.bc24@gmail.com</span></div>
+                <div class="p-4 rounded-xl bg-gray-100 dark:bg-gray-800">🌐 <span class="ml-3">Portfolio Website</span></div>
+                <div class="p-4 rounded-xl bg-gray-100 dark:bg-gray-800">📍 <span class="ml-3">Indonesia</span></div>
+              </div>
+            </div>
+
+            <div class="bg-gray-100 dark:bg-gray-900 p-8 rounded-3xl shadow-xl">
+              <form id="contactForm">
+                <input id="contactName" name="name" type="text" placeholder="Nama" required class="w-full mb-4 px-5 py-3 rounded-xl bg-white dark:bg-gray-800 outline-none" />
+                <input id="contactEmail" name="email" type="email" placeholder="Email" required class="w-full mb-4 px-5 py-3 rounded-xl bg-white dark:bg-gray-800 outline-none" />
+                <textarea id="contactMessage" name="message" rows="5" placeholder="Pesan" required class="w-full mb-5 px-5 py-3 rounded-xl bg-white dark:bg-gray-800 outline-none"></textarea>
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition">Kirim Pesan</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="uiux" class="py-28">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center">
+            <span class="text-primary uppercase tracking-[4px] font-semibold">UI / UX Portfolio</span>
+            <h2 class="mt-4 text-4xl lg:text-5xl font-extrabold">Design Collection</h2>
+            <p class="mt-6 text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+              Seluruh proses desain mulai dari Wireframe hingga Prototype akan ditampilkan pada bagian ini beserta tautan menuju Figma.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap justify-center gap-4 mt-16">
+            <button class="filter-btn active">Semua</button>
+            <button class="filter-btn">Wireframe</button>
+            <button class="filter-btn">Mockup</button>
+            <button class="filter-btn">UI Element</button>
+            <button class="filter-btn">Prototype</button>
+          </div>
+
+          <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
+            <div class="gallery-card">
+              <img src="assets/images/uiux/wireframe.png" class="gallery-image" loading="lazy" alt="Wireframe" />
+              <div class="gallery-overlay">
+                <h3>Wireframe</h3>
+                <a href="https://www.figma.com/design/f5Z5NrVV0q2LrVahBv1wsG/Gigis-UAS?node-id=0-1&t=x6FB25k4W816GKon-1">Lihat Detail</a>
+              </div>
+            </div>
+
+            <div class="gallery-card">
+              <img src="assets/images/uiux/mockup.png" class="gallery-image" loading="lazy" alt="Mockup" />
+              <div class="gallery-overlay">
+                <h3>Mockup</h3>
+                <a href="https://www.figma.com/design/f5Z5NrVV0q2LrVahBv1wsG/Gigis-UAS?node-id=1-2&t=x6FB25k4W816GKon-1">Lihat Detail</a>
+              </div>
+            </div>
+
+            <div class="gallery-card">
+              <img src="assets/images/uiux/uielement.png" class="gallery-image" loading="lazy" alt="UI Element" />
+              <div class="gallery-overlay">
+                <h3>UI Element</h3>
+                <a href="https://www.figma.com/design/f5Z5NrVV0q2LrVahBv1wsG/Gigis-UAS?node-id=1-3&t=x6FB25k4W816GKon-1">Lihat Detail</a>
+              </div>
+            </div>
+
+            <div class="gallery-card">
+              <img src="assets/images/uiux/prototype.png" class="gallery-image" loading="lazy" alt="Prototype" />
+              <div class="gallery-overlay">
+                <h3>Prototype</h3>
+                <a href="https://www.figma.com/proto/f5Z5NrVV0q2LrVahBv1wsG/Gigis-UAS?node-id=1-25&p=f&t=4Zk8zLn4UR3eC76E-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2">Prototype Figma</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-zinc-200 dark:border-zinc-800">
+      <div class="max-w-7xl mx-auto px-6 py-10">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-6">
+          <div>
+            <h3 class="text-2xl font-bold">FAJAR BUANA CAHAYANTHA</h3>
+            <p class="mt-2 text-zinc-500">Strategic & Creative Manager</p>
+          </div>
+
+          <div class="flex gap-6">
+            <a href="https://github.com/tupay24" target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="https://id.jobstreet.com/id/profiles/fajar-buanacahayantha-lJ8L7Ykhwm" target="_blank" rel="noopener noreferrer">Jobstreet</a>
+            <a href="https://www.youtube.com/@rm850tupay" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.tiktok.com/@rm850.24" target="_blank" rel="noopener noreferrer">TikTok</a>
+          </div>
+        </div>
+
+        <div class="mt-10 pt-8 border-t border-zinc-200 dark:border-zinc-800 text-center text-zinc-500">
+          © 2026 Fajar Buana Cahayantha Portfolio. Built with HTML5, Tailwind CSS & JavaScript.
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-primary text-white shadow-xl hidden">↑</button>
+
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+
+      const projectSlides = document.querySelectorAll('[data-project-slide]');
+      const projectDots = document.querySelectorAll('.project-dot');
+      let projectSlideIndex = 0;
+
+      function showProjectSlide(index) {
+        if (!projectSlides.length) return;
+
+        projectSlides.forEach((slide, i) => {
+          slide.classList.toggle('opacity-100', i === index);
+          slide.classList.toggle('opacity-0', i !== index);
+        });
+
+        projectDots.forEach((dot, i) => {
+          dot.classList.toggle('bg-white', i === index);
+          dot.classList.toggle('bg-white/40', i !== index);
+        });
+      }
+
+      if (projectSlides.length) {
+        showProjectSlide(projectSlideIndex);
+        setInterval(() => {
+          projectSlideIndex = (projectSlideIndex + 1) % projectSlides.length;
+          showProjectSlide(projectSlideIndex);
+        }, 3000);
+      }
+
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          const name = document.getElementById('contactName').value.trim();
+          const email = document.getElementById('contactEmail').value.trim();
+          const message = document.getElementById('contactMessage').value.trim();
+
+          const subject = encodeURIComponent(`Pesan dari ${name}`);
+          const body = encodeURIComponent(`Nama: ${name}\nEmail: ${email}\n\nPesan:\n${message}`);
+
+          window.location.href = `mailto:fajar.bc24@gmail.com?subject=${subject}&body=${body}`;
+          contactForm.reset();
+        });
+      }
+    </script>
+
+    <button id="theme-toggle">🌙</button>
+
+    <div id="loader" class="fixed inset-0 bg-black flex items-center justify-center z-[999]">
+      <div class="text-white text-4xl font-bold animate-pulse">FAJAR BUANA CAHAYANTHA</div>
+    </div>
+  </body>
+</html>
